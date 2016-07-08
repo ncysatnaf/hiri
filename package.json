@@ -1,6 +1,6 @@
 {
   "name": "hiri",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "cli help lib",
   "main": "./lib/index.js",
   "dependencies": {
@@ -35,6 +35,14 @@
       ]
     }
   },
-  "author": "vaiii",
+  "author": {
+    "name": "vaiii",
+    "email": "ncysatnaf@gmail.com",
+    "url": "github.com/ncysatnaf"
+  },
+  "homepage": "https://github.com/ncysatnaf/hiri",
+  "bugs": {
+    "url": "https://github.com/ncysatnaf/hiri/issues"
+  },
   "license": "MIT"
 }

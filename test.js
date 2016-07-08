@@ -1,6 +1,11 @@
 import test from 'ava'
-import {bindCommandCreators} from './lib'
+import {hiri} from './lib'
+import {message} from './example/command'
 
-test('bindCommandCreators', t => {
-  t.truthy(bindCommandCreators(),'lol')
+let cli = new hiri({
+  'm,message': message
+})
+
+test('hiri', t => {
+  t.truthy(cli, {commandlist: [ 'm', 'message' ]})
 })

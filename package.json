@@ -15,11 +15,11 @@
     "babel-preset-stage-3": "^6.11.0",
     "babel-register": "^6.9.0",
     "coveralls": "^2.11.9",
-    "nyc": "^6.4.0",
+    "nyc": "^6.4.0"
   },
   "scripts": {
     "build": "babel ./src --out-dir lib ",
-    "test": "npm run build ; ava",
+    "test": "npm run build ; nyc ava ./test.js",
     "start": "node example/index.js"
   },
   "keywords": [

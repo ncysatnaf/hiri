@@ -1,7 +1,7 @@
 {
-  "name": "es6-modules",
+  "name": "hiri",
   "version": "0.0.1",
-  "description": "build modules with es6 modules",
+  "description": "cli help lib",
   "main": "./lib/index.js",
   "dependencies": {
     "ava": "^0.15.2",

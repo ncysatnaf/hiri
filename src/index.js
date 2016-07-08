@@ -1,15 +1,15 @@
-import {confInput} from './util'
+import {confInput } from './util'
 import minimist from 'minimist'
 import bindCommands from './bindCommands'
 
 export class hiri{
-  constructor(){
+  constructor(commands){
+
     this.argv = this.getInput()
-    this.commands = {}
     this.commandlist = []
-    this.createCommand = this.createCommand.bind(this)
-    this.listen = this.listen.bind(this)
     this.dispatch = this.dispatch.bind(this)
+    this.commands = this.createCommand(commands)
+    this.listen = this.listen()
   }
 
   getInput(){
@@ -25,8 +25,7 @@ export class hiri{
         this.commandlist.push(val)
       })
     })
-
-    this.commands = bindCommands(commands,this.dispatch)
+    return bindCommands(commands,this.dispatch)
   }
 
   dispatch(command){

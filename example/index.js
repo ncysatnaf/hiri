@@ -1,12 +1,6 @@
 const { hiri } = require('../lib')
 const { message } = require('./command.js')
 
-const cli = new hiri()
-
-
-cli.createCommand({
+const cli = new hiri({
   'm,message': message
 })
-
-
-cli.listen()

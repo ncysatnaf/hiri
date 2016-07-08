@@ -1,6 +1,6 @@
 {
   "name": "hiri",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "cli help lib",
   "main": "./lib/index.js",
   "dependencies": {

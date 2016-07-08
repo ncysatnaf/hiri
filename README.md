@@ -1,4 +1,4 @@
-#hiri [![npm][npm-image]][npm-url]  ![downloads][downloads-image]][downloads-url] [![Build Status](https://img.shields.io/circleci/project/ncysatnaf/hiri/master.svg)](https://circleci.com/gh/ncysatnaf/hiri) [![Coveralls branch](https://img.shields.io/coveralls/ncysatnaf/hiri/master.svg)](https://github.com/ncysatnaf/hiri)
+#hiri [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![Build Status](https://img.shields.io/circleci/project/ncysatnaf/hiri/master.svg)](https://circleci.com/gh/ncysatnaf/hiri) [![Coveralls branch](https://img.shields.io/coveralls/ncysatnaf/hiri/master.svg)](https://github.com/ncysatnaf/hiri)
 
 [npm-image]: https://img.shields.io/npm/v/hiri.svg
 [npm-url]: https://npmjs.org/package/hiri

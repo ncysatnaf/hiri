@@ -13,7 +13,7 @@ npm install hiri
 
 ## usage  
 
-```js 
+```js
 //index.js
 
 var {hiri} = require('hiri')
@@ -31,8 +31,8 @@ const cli = new hiri({
 ```
 
 ```
-node index.js -m lalala hello
-// You input hello with flags {"m":"lalala"}
+$ node index.js -m lalala hello
+//You input hello with flags {"m":"lalala"}
 ```
 
 inspiration of [cac/egoist](https://github.com/egoist/cac)

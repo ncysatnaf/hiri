@@ -1,11 +1,11 @@
 #hiri [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url]
 
-[npm-image]: https://img.shields.io/npm/v/get-package-readme.svg
-[npm-url]: https://npmjs.org/package/get-package-readme
-[downloads-image]: https://img.shields.io/npm/dm/get-package-readme.svg
-[downloads-url]: https://npmjs.org/package/get-package-readme
+[npm-image]: https://img.shields.io/npm/v/hiri.svg
+[npm-url]: https://npmjs.org/package/hiri
+[downloads-image]: https://img.shields.io/npm/dm/hiri.svg
+[downloads-url]: https://npmjs.org/package/hiri
 
-## install 
+## install
 
 ```
 npm install hiri
@@ -14,7 +14,7 @@ npm install hiri
 ## usage  
 
 ```js 
-//index.js 
+//index.js
 
 var {hiri} = require('hiri')
 

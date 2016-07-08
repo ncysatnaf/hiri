@@ -35,4 +35,8 @@ $ node index.js -m lalala hello
 //You input hello with flags {"m":"lalala"}
 ```
 
-inspiration of [cac/egoist](https://github.com/egoist/cac)
+# inspiration of [cac/egoist](https://github.com/egoist/cac)
+
+## license
+
+MIT. Copyright (c) [viii](https://github.com/ncysatnaf).

@@ -1,4 +1,4 @@
-var {hiri} = require('../lib')
+const {hiri} = require('../lib')
 
 function message(){
 	let input = this.input

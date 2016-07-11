@@ -1,9 +1,14 @@
-#hiri [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![Build Status](https://travis-ci.org/ncysatnaf/hiri.svg?branch=master)](https://travis-ci.org/ncysatnaf/hiri) [![Coveralls branch](https://img.shields.io/coveralls/ncysatnaf/hiri/master.svg)](https://github.com/ncysatnaf/hiri)
+#hiri [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![Build Status][build-status]][build-url] [![Coveralls branch][coverall-status]][coverall-url]
 
 [npm-image]: https://img.shields.io/npm/v/hiri.svg
 [npm-url]: https://npmjs.org/package/hiri
 [downloads-image]: https://img.shields.io/npm/dm/hiri.svg
 [downloads-url]: https://npmjs.org/package/hiri
+[build-status]: https://travis-ci.org/ncysatnaf/hiri.svg?branch=master
+[build-url]: https://travis-ci.org/ncysatnaf/hiri
+[coverall-status]: https://img.shields.io/coveralls/ncysatnaf/hiri/master.svg
+[coverall-url]: https://github.com/ncysatnaf/hiri
+
 
 ## install
 

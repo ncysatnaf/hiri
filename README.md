@@ -7,7 +7,7 @@
 [build-status]: https://travis-ci.org/ncysatnaf/hiri.svg?branch=master
 [build-url]: https://travis-ci.org/ncysatnaf/hiri
 [coverall-status]: https://img.shields.io/coveralls/ncysatnaf/hiri/master.svg
-[coverall-url]: https://github.com/ncysatnaf/hiri
+[coverall-url]: https://coveralls.io/github/ncysatnaf/hiri
 
 
 ## install
@@ -16,22 +16,26 @@
 npm install hiri
 ```
 
-## usage  
+## usage(need babel)
 
 ```js
 //index.js
 
-var {hiri} = require('hiri')
-
-function message(){
-	let input = this.input
-	let flags = this.flags
-	return console.log(`You input ${input} with flags ${JSON.stringify(flags)}`)
-}
+import { hiri } from '../lib'
+import { message } from './command'
 
 const cli = new hiri({
 	'm,message': message
 })
+
+//command.js
+
+export function message() {
+  let input = this.input
+  let flags = this.flags
+  return console.log(`You input ${input} with flags ${JSON.stringify(flags)}`)
+}
+
 
 ```
 

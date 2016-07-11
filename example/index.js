@@ -1,10 +1,7 @@
-const {hiri} = require('../lib')
+'use strict'
 
-function message(){
-	let input = this.input
-	let flags = this.flags
-	return console.log(`You input ${input} with flags ${JSON.stringify(flags)}`)
-}
+import { hiri } from '../lib'
+import { message } from './command'
 
 const cli = new hiri({
 	'm,message': message

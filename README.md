@@ -21,7 +21,7 @@ npm install hiri
 ```js
 //index.js
 
-import { hiri } from '../lib'
+import { hiri } from 'hiri'
 import { message } from './command'
 
 const cli = new hiri({
